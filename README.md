@@ -6,10 +6,33 @@
 
 ## 安装
 
+### 推荐（Conda 环境）
+
+```bash
+python -m pip install -U claude-conversation-export-html
+claude-html-start --help
+```
+
+### 推荐（pipx）
+
 ```bash
 pipx install claude-conversation-export-html
 claude-html-start --help
 ```
+
+### OR using pip
+```bash
+pip install claude-conversation-export-html
+```
+
+如果你使用 `pip --user` 安装后提示 `command not found`，请把用户脚本目录加入 PATH：
+
+```bash
+echo 'export PATH="$HOME/Library/Python/3.13/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+代码仓库：`https://github.com/SinLucifer/claude-conversation-export-html`
 
 ## 快速开始
 
